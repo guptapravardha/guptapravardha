@@ -183,8 +183,6 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
     </rect>
   </g>
 </g>
-
-
 <!-- buildDreams() code card -->
 <g class="cl" style="animation:fadeIn .5s ease 1.4s forwards">
   <rect x="552" y="40" width="286" height="212" rx="12" fill="#160f26" fill-opacity=".94" stroke="#3b2a5c" stroke-width="1.2"/>
