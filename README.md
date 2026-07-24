@@ -2,7 +2,7 @@
 
 <!-- ✨ Animated Banner ✨ -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./pravardha-banner.svg?v=7">
+  <source media="(prefers-color-scheme: dark)" srcset="./pravardha-banner.svg?v=999">
   <source media="(prefers-color-scheme: light)" srcset="./pravardha-banner-light.svg?v=1">
   <img src="./pravardha-banner.svg?v=7" alt="Pravardha Gupta — Web Developer" width="100%"/>
 </picture>
