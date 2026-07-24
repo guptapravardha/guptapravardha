@@ -175,15 +175,53 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
 <text class="st" x="398" y="640" text-anchor="middle" font-size="18" font-weight="bold" fill="#b45309" filter="url(#glow)" style="animation:fadeIn .4s ease 6.9s forwards">∞</text>
 <text class="st" x="538" y="640" text-anchor="middle" font-size="18" font-weight="bold" fill="#9333ea" filter="url(#glow)" style="animation:fadeIn .4s ease 7.05s forwards">8+</text>
 <!-- ================= RIGHT: ILLUSTRATION ================= -->
-<circle cx="1000" cy="440" r="270" fill="url(#girlGlow)"><animate attributeName="r" values="270;292;270" dur="5s" repeatCount="indefinite"/></circle>
+<circle cx="1000" cy="440" r="270" fill="url(#girlGlow)">
+  <animate attributeName="r" values="270;292;270" dur="5s" repeatCount="indefinite"/>
+</circle>
+
 <g class="fl">
-  <g clip-path="url(#girlReveal)"><image x="722" y="152" width="558" height="522" href="./pravardha.png/> <g clip-path="url(#girlBox)">
-    <!-- formation edge: bright line leading the top-to-bottom materialization -->
-    <rect x="722" y="150" width="558" height="4" fill="url(#scanEdge)" filter="url(#glow)" opacity="0">
-      <animate attributeName="opacity" values="0;.95;.95;0" keyTimes="0;.04;.9;1" dur="2s" begin=".5s" fill="freeze"/>
-      <animate attributeName="y" from="150" to="672" dur="1.8s" begin=".5s" fill="freeze"/>
+
+  <g clip-path="url(#girlBox)">
+
+    <!-- Profile Image -->
+    <image 
+      href="./profile1.png"
+      x="720"
+      y="150"
+      width="560"
+      height="560"
+      preserveAspectRatio="xMidYMid slice"
+    />
+
+    <!-- scan animation -->
+    <rect 
+      x="722" 
+      y="150" 
+      width="558" 
+      height="4" 
+      fill="url(#scanEdge)" 
+      filter="url(#glow)" 
+      opacity="0">
+      
+      <animate 
+        attributeName="opacity" 
+        values="0;.95;.95;0" 
+        keyTimes="0;.04;.9;1" 
+        dur="2s" 
+        begin=".5s" 
+        fill="freeze"/>
+
+      <animate 
+        attributeName="y" 
+        from="150" 
+        to="672" 
+        dur="1.8s" 
+        begin=".5s" 
+        fill="freeze"/>
     </rect>
+
   </g>
+
 </g>
 
 <!-- buildDreams() code card -->
