@@ -175,26 +175,27 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
 <text class="st" x="398" y="640" text-anchor="middle" font-size="18" font-weight="bold" fill="#b45309" filter="url(#glow)" style="animation:fadeIn .4s ease 6.9s forwards">∞</text>
 <text class="st" x="538" y="640" text-anchor="middle" font-size="18" font-weight="bold" fill="#9333ea" filter="url(#glow)" style="animation:fadeIn .4s ease 7.05s forwards">8+</text>
 <!-- ================= RIGHT: ILLUSTRATION ================= -->
+<!-- Profile Glow -->
 <circle cx="1000" cy="440" r="270" fill="url(#girlGlow)">
   <animate attributeName="r" values="270;292;270" dur="5s" repeatCount="indefinite"/>
 </circle>
 
 <g class="fl">
 
+  <!-- Profile Image Container -->
   <g clip-path="url(#girlBox)">
 
-    <!-- Profile Image -->
-<image
-href="https://raw.githubusercontent.com/guptapravardha/guptapravardha/main/profile1.png"
-x="720"
-y="150"
-width="560"
-height="560"
-preserveAspectRatio="xMidYMid slice"
-clip-path="url(#girlBox)"
-/>
+    <!-- Your SVG Profile Image -->
+    <image
+      href="./profile1.svg"
+      x="720"
+      y="150"
+      width="560"
+      height="560"
+      preserveAspectRatio="xMidYMid slice"
+    />
 
-    <!-- scan animation -->
+    <!-- Scan Line Animation -->
     <rect 
       x="722" 
       y="150" 
@@ -203,7 +204,7 @@ clip-path="url(#girlBox)"
       fill="url(#scanEdge)" 
       filter="url(#glow)" 
       opacity="0">
-      
+
       <animate 
         attributeName="opacity" 
         values="0;.95;.95;0" 
@@ -219,12 +220,12 @@ clip-path="url(#girlBox)"
         dur="1.8s" 
         begin=".5s" 
         fill="freeze"/>
+
     </rect>
 
   </g>
 
 </g>
-
 <!-- buildDreams() code card -->
 <g class="cl" style="animation:fadeIn .5s ease 1.4s forwards">
   <rect x="552" y="40" width="286" height="212" rx="12" fill="#ffffff" fill-opacity=".94" stroke="#e6d5f7" stroke-width="1.2"/>
