@@ -184,14 +184,15 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
   <g clip-path="url(#girlBox)">
 
     <!-- Profile Image -->
-    <image 
-      href="./profile1.png"
-      x="720"
-      y="150"
-      width="560"
-      height="560"
-      preserveAspectRatio="xMidYMid slice"
-    />
+<image
+href="https://raw.githubusercontent.com/guptapravardha/guptapravardha/main/profile1.png"
+x="720"
+y="150"
+width="560"
+height="560"
+preserveAspectRatio="xMidYMid slice"
+clip-path="url(#girlBox)"
+/>
 
     <!-- scan animation -->
     <rect 
