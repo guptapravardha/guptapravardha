@@ -1,0 +1,206 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 360" width="420" height="360" role="img" aria-label="Tech Stack">
+
+<defs>
+<style><![CDATA[
+text{
+font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace
+}
+
+@keyframes fadeUp{
+from{opacity:0;transform:translateY(8px)}
+to{opacity:1;transform:translateY(0)}
+}
+
+.row{
+opacity:0;
+animation:fadeUp .5s ease forwards
+}
+
+@keyframes shineX{
+0%{transform:translateX(-150px)}
+60%,100%{transform:translateX(460px)}
+}
+
+.sh{
+animation:shineX 4s ease-in-out 2s infinite
+}
+]]></style>
+
+
+<linearGradient id="tg">
+<stop stop-color="#ff7eb6">
+<animate attributeName="stop-color"
+values="#ff7eb6;#c084fc;#ff7eb6"
+dur="6s"
+repeatCount="indefinite"/>
+</stop>
+
+<stop offset="1" stop-color="#c084fc">
+<animate attributeName="stop-color"
+values="#c084fc;#ff7eb6;#c084fc"
+dur="6s"
+repeatCount="indefinite"/>
+</stop>
+</linearGradient>
+
+
+<linearGradient id="shine">
+<stop stop-color="white" stop-opacity="0"/>
+<stop offset=".5" stop-color="white" stop-opacity=".08"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</linearGradient>
+
+
+<clipPath id="card">
+<rect width="418" height="358" rx="14"/>
+</clipPath>
+
+</defs>
+
+
+<rect x="1" y="1"
+width="418"
+height="358"
+rx="14"
+fill="#170e28"
+stroke="url(#tg)"
+stroke-width="1.5"/>
+
+
+<text x="20" y="35"
+font-size="16"
+font-weight="bold"
+fill="url(#tg)">
+💻 Tech Stack
+</text>
+
+
+
+<!-- HTML -->
+<g class="row" style="animation-delay:.3s">
+<circle cx="28" cy="75" r="6" fill="#e34f26"/>
+<text x="45" y="80" fill="#e6edf3" font-size="13" font-weight="bold">
+HTML
+</text>
+</g>
+
+
+<!-- CSS -->
+<g class="row" style="animation-delay:.45s">
+<circle cx="28" cy="105" r="6" fill="#264de4"/>
+<text x="45" y="110" fill="#e6edf3" font-size="13" font-weight="bold">
+CSS
+</text>
+</g>
+
+
+<!-- JS -->
+<g class="row" style="animation-delay:.6s">
+<circle cx="28" cy="135" r="6" fill="#f7df1e"/>
+<text x="45" y="140" fill="#e6edf3" font-size="13" font-weight="bold">
+JavaScript
+</text>
+</g>
+
+
+<!-- C C++ -->
+<g class="row" style="animation-delay:.75s">
+<circle cx="28" cy="165" r="6" fill="#00599c"/>
+<text x="45" y="170" fill="#e6edf3" font-size="13" font-weight="bold">
+C / C++
+</text>
+</g>
+
+
+<!-- Java -->
+<g class="row" style="animation-delay:.9s">
+<circle cx="28" cy="195" r="6" fill="#f89820"/>
+<text x="45" y="200" fill="#e6edf3" font-size="13" font-weight="bold">
+Java
+</text>
+</g>
+
+
+<!-- SQL -->
+<g class="row" style="animation-delay:1.05s">
+<circle cx="28" cy="225" r="6" fill="#00758f"/>
+<text x="45" y="230" fill="#e6edf3" font-size="13" font-weight="bold">
+SQL
+</text>
+</g>
+
+
+<!-- Python -->
+<g class="row" style="animation-delay:1.2s">
+<circle cx="220" cy="75" r="6" fill="#3776ab"/>
+<text x="237" y="80" fill="#e6edf3" font-size="13" font-weight="bold">
+Python (Basic)
+</text>
+</g>
+
+
+<!-- AI -->
+<g class="row" style="animation-delay:1.35s">
+<circle cx="220" cy="105" r="6" fill="#9333ea"/>
+<text x="237" y="110" fill="#e6edf3" font-size="13" font-weight="bold">
+AI Tools
+</text>
+</g>
+
+
+<!-- Figma -->
+<g class="row" style="animation-delay:1.5s">
+<circle cx="220" cy="135" r="6" fill="#f24e1e"/>
+<text x="237" y="140" fill="#e6edf3" font-size="13" font-weight="bold">
+Figma
+</text>
+</g>
+
+
+<!-- PHP -->
+<g class="row" style="animation-delay:1.65s">
+<circle cx="220" cy="165" r="6" fill="#777bb4"/>
+<text x="237" y="170" fill="#e6edf3" font-size="13" font-weight="bold">
+PHP
+</text>
+</g>
+
+
+<!-- TS -->
+<g class="row" style="animation-delay:1.8s">
+<circle cx="220" cy="195" r="6" fill="#3178c6"/>
+<text x="237" y="200" fill="#e6edf3" font-size="13" font-weight="bold">
+TypeScript
+</text>
+</g>
+
+
+
+<text x="20"
+y="285"
+font-size="12"
+fill="#a78bfa">
+Building • Designing • Exploring
+</text>
+
+
+<text x="20"
+y="315"
+font-size="11"
+fill="#8b8b9c">
+AI + Development + Creativity
+</text>
+
+
+<g clip-path="url(#card)">
+<rect class="sh"
+x="-100"
+y="0"
+width="100"
+height="360"
+fill="url(#shine)"
+transform="skewX(-15)"/>
+</g>
+
+
+</svg>
